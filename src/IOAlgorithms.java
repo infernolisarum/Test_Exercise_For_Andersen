@@ -32,9 +32,9 @@ public class IOAlgorithms {
     /*
     Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
      */
-    static void thirdExercise(int[] ints) {
+    static void thirdExercise(int[] array) {
         try {
-            for (int i : ints) {
+            for (int i : array) {
                 if (i % 3 == 0) resultArray.add (i);
             }
         } catch (NullPointerException e) {
@@ -47,9 +47,9 @@ public class IOAlgorithms {
         }
     }
 
-    static void thirdExercise(double[] ints) {
+    static void thirdExercise(double[] array) {
         try {
-            for (double d : ints) {
+            for (double d : array) {
                 if (d % 3 == 0) resultArray.add (d);
             }
         } catch (NullPointerException e) {
