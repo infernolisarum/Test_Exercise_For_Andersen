@@ -37,13 +37,9 @@ public class IOAlgorithms {
             for (int i : array) {
                 if (i % 3 == 0) resultArray.add (i);
             }
-        } catch (NullPointerException e) {
-            System.out.println ("The passed array is empty");
-        }
-        try {
             System.out.println (resultArray);
         } catch (NullPointerException e) {
-            System.out.println ("The result array is empty");
+            System.out.println ("The passed array is empty");
         }
     }
 
@@ -52,13 +48,9 @@ public class IOAlgorithms {
             for (double d : array) {
                 if (d % 3 == 0) resultArray.add (d);
             }
-        } catch (NullPointerException e) {
-            System.out.println ("The passed array is empty");
-        }
-        try {
             System.out.println (resultArray);
         } catch (NullPointerException e) {
-            System.out.println ("The result array is empty");
+            System.out.println ("The passed array is empty");
         }
     }
 }
